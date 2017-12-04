@@ -1,5 +1,8 @@
 <?php
 	session_start();
+	if(!file_exists("core/database.php")) {
+		header("Location: install");
+	}
 	include "core/database.php";
 	include "functions.php";
 		

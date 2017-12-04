@@ -29,7 +29,7 @@
 					
 					$child_tabs = $this->database->query("SELECT * FROM " . T_PREFIX . "tabs WHERE tab_parent=$tab_id AND tab_id<>$tab_id ORDER BY tab_order");
 					//Parent has child tabs
-					if ($child_tabs->num_rows > 1) {
+					if ($child_tabs->num_rows > 0) {
 						$dropdown_id		= "$tab_slug-$tab_id";
 						$dropdown_tabs 		= "";
 						

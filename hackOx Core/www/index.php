@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 'On');
+	error_reporting(E_ALL);
 	session_start();
 	include("config.php");
 	include("load.php");
@@ -21,7 +23,7 @@
 				echo $view->render();
 			}
 		} else {
-			header("Location: index.php?p=0");
+			header("Location: index.php?p=1");
 		}
 	} else {
 		header("Location: /login.php");

@@ -21,6 +21,8 @@ a2enmod mpm_itk
 service apache2 restart
 
 #Add VirtualHost
-#TODO: add VH file to /etc/apache2/sites-available/hackox.conf
+#TODO: hackox.conf -> /etc/apache2/sites-available/hackox.conf
 a2ensite hackox.conf
 service apache2 restart
+
+#Run DB installer from /install

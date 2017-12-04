@@ -15,22 +15,12 @@
   "controller": "mailspoof.php",
   "template": "mailspoof.tpl",
   "default_config": [
-	{
-      "key": "smtp_host",
+    {
+      "key": "smtp_server",
       "value": "smtp.example.com"
-    },
-	{
-      "key": "smtp_port",
-      "value": "465"
-    },
-	{
-      "key": "smtp_username",
-      "value": "example@example.com"
-    },
-	{
-      "key": "smtp_password",
-      "value": "example"
     }
   ],
-  "install_commands": [ ]
+  "install_commands": [
+    "wget https://example.com/module_addon.zip"
+  ]
 }
