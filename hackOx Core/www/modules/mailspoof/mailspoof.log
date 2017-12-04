@@ -1,0 +1,1298 @@
+
+[2017-11-19 16:20:27]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player795
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player795.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<no-reply@innsecure.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Sun, 19 Nov 2017 16:20:27 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "no-reply@innsecure.com" <no-reply@innsecure.com>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "no-reply@innsecure.com" <no-reply@innsecure.com>
+	Lv. 1: CLIENT -> SERVER: Subject: no-reply@innsecure.com
+	Lv. 1: CLIENT -> SERVER: Message-ID: <90edca8a1c7cfa4fd3d7bbf4395982a3@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: no-reply@innsecure.com
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as AA6BC120097
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-19 16:33:57]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player795
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player795.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<antonio.ruiz@techtalents.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<antonio.ruiz@techtalents.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Sun, 19 Nov 2017 16:33:57 +0100
+	Lv. 1: CLIENT -> SERVER: To: antonio.ruiz@techtalents.es
+	Lv. 1: CLIENT -> SERVER: From: Antonio Ruiz <antonio.ruiz@techtalents.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: Antonio Ruiz <antonio.ruiz@techtalents.es>
+	Lv. 1: CLIENT -> SERVER: Subject: recordatorio
+	Lv. 1: CLIENT -> SERVER: Message-ID: <a45d0087fb6762156be7e675cb6274f6@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: preguntar a Guille cómo lo ha hecho
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 9B176120095
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-19 16:35:43]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player795
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player795.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Sun, 19 Nov 2017 16:35:43 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <5002584ccd7305bd766f58e56269c681@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 7250412007D
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-19 16:36:11]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player795
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player795.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Sun, 19 Nov 2017 16:36:11 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <716f58342eae4c216d995d0e052e6236@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 48344120094
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-20 14:46:41]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player797
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player797.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<amanda.jimenez.molina@gmail.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<wipy123@gmail.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Mon, 20 Nov 2017 14:46:40 +0100
+	Lv. 1: CLIENT -> SERVER: To: wipy123@gmail.com
+	Lv. 1: CLIENT -> SERVER: From: Amanda Jimenez <amanda.jimenez.molina@gmail.com>
+	Lv. 1: CLIENT -> SERVER: Reply-To: Amanda Jimenez <amanda.jimenez.molina@gmail.com>
+	Lv. 1: CLIENT -> SERVER: Subject: Hola
+	Lv. 1: CLIENT -> SERVER: Message-ID: <7bcb60dfeb144b94713c011ba3abb434@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: Holi Adri :D
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 3BCE82E0098
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 22:22:03]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<test@example.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 22:22:01 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: Test <test@example.com>
+	Lv. 1: CLIENT -> SERVER: Reply-To: Test <test@example.com>
+	Lv. 1: CLIENT -> SERVER: Subject: Test Mailspoof module
+	Lv. 1: CLIENT -> SERVER: Message-ID: <3c837296e269212d5cd8a86b91ba76ae@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: Hi
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 60CAF6400AB
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 22:23:42]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<test@example.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 22:23:41 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: Test <test@example.com>
+	Lv. 1: CLIENT -> SERVER: Reply-To: Test <test@example.com>
+	Lv. 1: CLIENT -> SERVER: Subject: Test Mailspoof module
+	Lv. 1: CLIENT -> SERVER: Message-ID: <904692aff262ec99566841b96af77320@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: Hi
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 3E70C6400A7
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 22:25:46]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<test@example.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<guillermo@deantoniosierra.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 22:25:45 +0100
+	Lv. 1: CLIENT -> SERVER: To: guillermo@deantoniosierra.es
+	Lv. 1: CLIENT -> SERVER: From: Test <test@example.com>
+	Lv. 1: CLIENT -> SERVER: Reply-To: Test <test@example.com>
+	Lv. 1: CLIENT -> SERVER: Subject: Test Mailspoof module
+	Lv. 1: CLIENT -> SERVER: Message-ID: <45bd077fac1eb7dabc1dd9fcf34363c1@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: Hi
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 45AE664009C
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:00:14]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:00:13 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <1647cbd55ce2e3cb08cee9e191598bd9@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 0C53E6400A7
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:02:10]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:02:10 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <3293bc7c91b03b8973713ad065ee7830@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 86FFF6400A2
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:02:22]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:02:22 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <6fa6e60c83b1c8571cdf08c05dbb09fe@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 9FB5F64009F
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:05:00]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:05:00 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <990678c37723379f91981ea6cb2c7cf1@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as AB1886400A5
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:07:04]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:07:03 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <6bd09cfa6f20e0df9fd6ab912a1978a5@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as DBE276400AB
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:07:58]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:07:58 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <8a39a5822af2a51994df55d752331afb@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 6AAF164009F
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-22 23:09:07]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player759
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player759.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Wed, 22 Nov 2017 23:09:07 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <0ff4127c64b01b2a17ad3c204edd9450@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as ACCF364009C
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:36:40]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<i.garcia.prof@ufv.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:36:39 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Subject: Faltas de respeto
+	Lv. 1: CLIENT -> SERVER: Message-ID: <bd047a4f2a8369ba061d71b880d98faf@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: No se cómo se puede ser tan incompetente para quejarte como una puta nenaza de que os gasto bromas en clase... No esperes muy buenas notas en los próximos exámenes!<br />
+	Lv. 1: CLIENT -> SERVER: <br />
+	Lv. 1: CLIENT -> SERVER: Un saludo<br />
+	Lv. 1: CLIENT -> SERVER: <img src="https://image.ibb.co/h7Oxnm/firma.png" />
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 0FCD614009A
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:37:20]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<i.garcia.prof@ufv.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:37:20 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Subject: Faltas de respeto
+	Lv. 1: CLIENT -> SERVER: Message-ID: <a708df7bb4898aa8531ed208920cdec1@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: No se cómo se puede ser tan incompetente para quejarte como una puta nenaza de que os gasto bromas en clase... No esperes muy buenas notas en los próximos exámenes!<br />
+	Lv. 1: CLIENT -> SERVER: <br />
+	Lv. 1: CLIENT -> SERVER: Un saludo<br />
+	Lv. 1: CLIENT -> SERVER: <img src="https://image.ibb.co/h7Oxnm/firma.png" />
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as CD2B714009E
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:40:06]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:40:05 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <b5906faf4e78e3bb239bf50a4d289ce1@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 11AFA140095
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:42:42]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:42:42 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <b7deef750b60ee1a9e5f76daf195ebbd@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as C54F214009F
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:44:12]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:44:11 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <a17f2f17c78f4a961cba98d9b93c2f00@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 07EE41400A3
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:45:29]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:45:28 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <42936bac1d92fb6be30b77889715adfd@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 3C640140091
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:46:03]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:46:03 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <ce21cc0709064717f0d01a6b65380405@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 97BCF14009A
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:47:27]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:47:26 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <927842a67067c83db5c4cbbbcde8cfa1@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 3555614009A
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:49:05]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:49:05 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <878c80c26802161e8f2a1d3e2bff6ee5@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 80E6414009E
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:52:21]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:52:21 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <29158988661c4810955cac8c016f0de4@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 87A9B14009D
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:53:51]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:53:50 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <93f6e7b3a4de29e6c83daf42ce2a8c33@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as F160814009D
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:54:11]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:54:10 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <a22c8eada5ed490dcb7881c25dd91b88@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 1212914009D
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:54:42]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:54:42 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <e962f2ba072b27e02a63e4764c0e39b8@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 5364014009D
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:55:16]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<i.garcia.prof@ufv.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:55:16 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Subject: Faltas de respeto
+	Lv. 1: CLIENT -> SERVER: Message-ID: <a2d556bab752300a1b905dbdbe46a69e@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: No se cómo se puede ser tan incompetente para quejarte como una puta nenaza de que os gasto bromas en clase... No esperes muy buenas notas en los próximos exámenes!<br />
+	Lv. 1: CLIENT -> SERVER: <br />
+	Lv. 1: CLIENT -> SERVER: Un saludo<br />
+	Lv. 1: CLIENT -> SERVER: <img src="https://image.ibb.co/h7Oxnm/firma.png" />
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 5ACF9140093
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 19:57:51]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<i.garcia.prof@ufv.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<zalofdezgtk@gmail.com>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 19:57:51 +0100
+	Lv. 1: CLIENT -> SERVER: To: zalofdezgtk@gmail.com
+	Lv. 1: CLIENT -> SERVER: From: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: =?UTF-8?Q?Ignacio_Garc=C3=ADa_Juli=C3=A1?= <i.garcia.prof@ufv.es>
+	Lv. 1: CLIENT -> SERVER: Subject: Faltas de respeto
+	Lv. 1: CLIENT -> SERVER: Message-ID: <7f1abc277efeca45df70fe9a26c1f625@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: No se cómo se puede ser tan incompetente para quejarte como una puta nenaza de que os gasto bromas en clase... No esperes muy buenas notas en los próximos exámenes!<br />
+	Lv. 1: CLIENT -> SERVER: <br />
+	Lv. 1: CLIENT -> SERVER: Un saludo<br />
+	Lv. 1: CLIENT -> SERVER: <img src="https://image.ibb.co/h7Oxnm/firma.png" />
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 7F15E14008C
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 20:24:40]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 20:24:39 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <235b2b451c119c2cddb6d29bd8788188@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as D923F14009B
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	
+[2017-11-28 20:27:40]:
+	Lv. 3: Connection: opening to ssl://ssl0.ovh.net:465, timeout=300, options=array ()
+	Lv. 3: Connection: openedLv. 2: SERVER -> CLIENT: 220 ssl0.ovh.net player794
+	Lv. 1: CLIENT -> SERVER: EHLO 192.168.1.91
+	Lv. 2: SERVER -> CLIENT: 250-player794.ha.ovh.net
+	250-SIZE 104850000
+	250-AUTH PLAIN LOGIN
+	250-AUTH=PLAIN LOGIN
+	250-ENHANCEDSTATUSCODES
+	250 8BITMIME
+	Lv. 1: CLIENT -> SERVER: AUTH LOGIN
+	Lv. 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+	Lv. 1: CLIENT -> SERVER: bm8tcmVwbHlAaW5uc2VjdXJlLmNvbQ==
+	Lv. 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+	Lv. 1: CLIENT -> SERVER: T3cwNWRiQzB4VlEw
+	Lv. 2: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+	Lv. 1: CLIENT -> SERVER: MAIL FROM:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.0 Ok
+	Lv. 1: CLIENT -> SERVER: RCPT TO:<me@deantonious.es>
+	Lv. 2: SERVER -> CLIENT: 250 2.1.5 Ok
+	Lv. 1: CLIENT -> SERVER: DATA
+	Lv. 2: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+	Lv. 1: CLIENT -> SERVER: Date: Tue, 28 Nov 2017 20:27:39 +0100
+	Lv. 1: CLIENT -> SERVER: To: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: From: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Reply-To: "me@deantonious.es" <me@deantonious.es>
+	Lv. 1: CLIENT -> SERVER: Subject: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: Message-ID: <8f35d50a380b94f3e53418151e8d7046@192.168.1.91>
+	Lv. 1: CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.26 (https://github.com/PHPMailer/PHPMailer)
+	Lv. 1: CLIENT -> SERVER: MIME-Version: 1.0
+	Lv. 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: me@deantonious.es
+	Lv. 1: CLIENT -> SERVER: 
+	Lv. 1: CLIENT -> SERVER: .
+	Lv. 2: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 01068140083
+	Lv. 1: CLIENT -> SERVER: QUIT
+	Lv. 2: SERVER -> CLIENT: 221 2.0.0 Bye
+	Lv. 3: Connection: closed
+	

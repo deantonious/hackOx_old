@@ -1,0 +1,7 @@
+{
+    "name": "Demo2",
+    "version": "2.0",
+    "author": "deantonious",
+    "description": "Demo2 test app with root commands",
+    "script": "demo2.sh"
+}
