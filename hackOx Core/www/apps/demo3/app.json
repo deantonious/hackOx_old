@@ -1,7 +1,0 @@
-{
-    "name": "Demo3",
-    "version": "1.0",
-    "author": "deantonious",
-    "description": "Demo test app with arguments",
-    "script": "args.sh"
-}

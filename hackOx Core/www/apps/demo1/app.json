@@ -1,7 +1,0 @@
-{
-    "name": "Demo1",
-    "version": "1.0",
-    "author": "deantonious",
-    "description": "Demo1 test app with non root commands",
-    "script": "demo1.sh"
-}
