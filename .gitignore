@@ -1,9 +1,4 @@
 # Ignored files
 database.php
 wifi.conf
-
-# Ignored directories
-**/www/apps
-**/www/modules
-**/logs/apps
-**/logs/modules
+*.log
