@@ -1,0 +1,9 @@
+{
+    "name": "EvilURL",
+    "version": "1.0",
+    "author": "UNDEADSEC, deantonious",
+    "description": "Create and detect IDN Homograph Attacks",
+	"directory": "evilurl",
+	"run_command": "python3",
+    "script": "evilurl-cli.py"
+}
