@@ -24,7 +24,6 @@
 
 			$apps_rows .= "
 			<tr>
-				<td>$app_installed</td>
 				<td>$name</td>
 				<td>$version</td>
 				<td>$author</td>

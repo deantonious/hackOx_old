@@ -7,6 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<title><tpl:main_title> | <tpl:title></title>
+		
+		<meta name="module_name" content="<tpl:title>">
+		<meta name="module_dir" content="<tpl:dir>">
+		<meta name="module_id" content="<tpl:id>">
 	</head>
 	<body class="grey darken-3">
 		<tpl:navbar>

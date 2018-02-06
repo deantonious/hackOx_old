@@ -1,3 +1,8 @@
+<?php
+	if(file_exists("/var/hackox/www/core/database.php")) {
+		header("Location: ../login.php");
+	}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,7 +23,7 @@
 						<span class="title-login center">hackOx Installer</span>
 						
 						<label for="db_host">DB Host</label>
-						<input placeholder="DB Host" id="db_host" type="text" class="validate">
+						<input placeholder="DB Host" id="db_host" type="text" class="validate" value="localhost">
 				
 						<label for="db_host">DB Username</label>
 						<input placeholder="DB Username" id="db_username" type="text" class="validate">
@@ -30,13 +35,12 @@
 						<input placeholder="DB Database" id="db_database" type="text" class="validate">
 				
 						<label for="db_table_prefix">Table Prefix</label>
-						<input placeholder="prefix_" id="db_table_prefix" type="text" class="validate">
+						<input placeholder="hackox_" id="db_table_prefix" type="text" class="validate">
 						
 						<label for="db_password_salt">Password Salt</label>
 						<input placeholder="Password Salt" id="db_password_salt" type="text" class="validate">
 					</div>
 					<div class="card-action center">
-						<p>Please, remove the <b>/install</b> directory to prevent unathorised access after the installation ends.</p>
 						<div class="row" id="installation">
 							<button class="btn waves-effect waves-light green darken-4" type="submit" id="btn-install" name="action">Install <i class="material-icons left">play_circle_outline</i></button>
 						</div>

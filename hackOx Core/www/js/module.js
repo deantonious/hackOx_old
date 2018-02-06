@@ -1,6 +1,9 @@
-var Module = function() {
-
-	this.saveConfig = function(module_id, module_config) {
+function Module(module_dir, module_id) {
+	
+	this.dir = $('meta[name=module_dir]').attr("content");
+	this.id = $('meta[name=module_id]').attr("content");
+	
+	this.saveConfig = function(module_config) {
 		var module_obj = { };
 		var config_obj = { };
 		
@@ -10,7 +13,7 @@ var Module = function() {
 			var value = $("#" + html_id).val();
 			config_obj[key] = value;
 		}
-		module_obj["module_id"] = module_id;
+		module_obj["module_id"] = this.id;
 		module_obj["module_config"] = config_obj;
 		
 		var params = {
@@ -29,16 +32,38 @@ var Module = function() {
 		});
 	};
 	
-	this.requestOutput = function(params, url) {
+	this.requestAjax = function(params) {
+		params.module_id = this.id;
 		$.ajax({
 			data: params,
-			url: url, 
+			url: this.dir + "module.ajax.php", 
 			type: "post",
 			success: function(response_json) {
-				console.log(response_json);
+				//console.log(response_json);
+				if(loader)
+					hideLoader()
 				var response = JSON.parse(response_json);
 				Materialize.toast(response["message"], 3000);
 				$(".module-output").html("<pre>" + response["data"] + "</pre>");
+				
+			}
+		});
+	};
+	
+	this.requestAjaxWithLoader = function(params, loader_message) {
+		displayLoader(loader_message);
+		params.module_id = this.id;
+		$.ajax({
+			data: params,
+			url: this.dir + "module.ajax.php", 
+			type: "post",
+			success: function(response_json) {
+				//console.log(response_json);
+				hideLoader()
+				var response = JSON.parse(response_json);
+				Materialize.toast(response["message"], 3000);
+				$(".module-output").html("<pre>" + response["data"] + "</pre>");
+				
 			}
 		});
 	};

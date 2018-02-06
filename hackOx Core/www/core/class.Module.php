@@ -184,6 +184,14 @@
 			return exec("$command > /dev/null &");
 		}
 		
+		public function execNormal($command) {
+			return shell_exec("$command 2>&1");
+		}
+		
+		public function execRoot($command) {
+			return shell_exec("sudo $command 2>&1");
+		}
+		
 		public function getInterfaces() {
 			$active_interfaces = shell_exec("ifconfig");
 			$data = shell_exec("ifconfig -a");

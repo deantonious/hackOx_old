@@ -24,7 +24,7 @@ $(function(){
 		};
 		$.ajax({
 			data:  params,
-			url:   "install_sql.php",
+			url:   "install_sql.ajax.php",
 			type:  "post",
 			success:  function (response) {
 				Materialize.toast(response, 3000);

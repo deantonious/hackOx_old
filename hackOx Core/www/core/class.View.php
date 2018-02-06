@@ -96,6 +96,8 @@
 			$page = new Template("views/page_module.tpl");
 			$page->set("main_title", "hackOx");
 			$page->set("title", $this->title);
+			$page->set("dir", "/modules/$module_directory/");
+			$page->set("id", $module_id);
 			$page->set("navbar", $navbar->output());
 			$page->set("scripts", $load->outputJS());
 			$page->set("module_panel", $load->output());

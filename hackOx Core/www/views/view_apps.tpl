@@ -12,7 +12,6 @@
 			<table class="striped">
 				<thead>
 					<tr>
-						<th data-field="installed">Installed</th>
 						<th data-field="name">Name</th>
 						<th data-field="version">Version</th>
 						<th data-field="author">Author</th>

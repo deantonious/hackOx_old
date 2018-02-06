@@ -31,10 +31,11 @@
 			$run_command	= $json["run_command"];
 			$script			= $json["script"];
 			$script_full	= $this->abs_dir . "/" . $script;
+			
 			if($mode == "normal") {
-				$output = shell_exec("$run_command $script_full $args");
+				$output = shell_exec("$run_command $script_full $args 2>&1");
 			} else if($mode == "sudo") {
-				$output = shell_exec("sudo $run_command $script_full $args");
+				$output = shell_exec("sudo $run_command $script_full $args 2>&1");
 			}
 			
 			return $output;

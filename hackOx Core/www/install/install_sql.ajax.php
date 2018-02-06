@@ -1,6 +1,7 @@
 <?php
-	ini_set('display_errors', 'On');
-	error_reporting(E_ALL);
+	if(file_exists("/var/hackox/www/core/database.php")) {
+		header("Location: ../login.php");
+	}
 	
 	$db_host = $_POST["db_host"];
 	$db_username = $_POST["db_username"];

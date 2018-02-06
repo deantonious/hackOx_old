@@ -1,11 +1,10 @@
 <?php
 	session_start();
-	include "load.php";
-		
+	include("functions.php");
+
 	if(checkSession()) {
 		header("Location: index.php");
 	}
-	
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +17,6 @@
 		
 		<title>hackOx</title>
     </head>
-
     <body class="grey darken-3">
 		<div class="valign-wrapper" style="height:100vh;">
 			<div class="row valign">
@@ -27,7 +25,6 @@
 						<span class="title-login center">hackOx</span>
 						<label for="username">Username</label>
 						<input placeholder="Username" id="username" type="text" class="validate">
-				
 						<label for="password">Password</label>
 						<input placeholder="Password" id="password" type="password" class="validate">
 					</div>
@@ -37,8 +34,6 @@
 				</div>
 			</div>
 		</div>
-	
-	
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
 		<script type="text/javascript" src="js/login.js"></script>

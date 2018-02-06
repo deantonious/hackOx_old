@@ -9,7 +9,7 @@ $(function(){
 		};
 		$.ajax({
 			data:  params,
-			url:   'core/action.user_login.php',
+			url:   'core/login.ajax.php',
 			type:  'post',
 			success:  function (response) {
 				if(response == "false"){
