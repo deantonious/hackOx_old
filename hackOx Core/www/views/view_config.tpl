@@ -25,6 +25,18 @@
 </div>
 <div class="row">
 	<div class="input-field col s6">
+		<i class="material-icons prefix">list</i>
+		<textarea id="dev_app_repos" name="dev_app_repos" placeholder="One line for each repo" value="" class="materialize-textarea"></textarea>
+		<label for="dev_app_repos">App Repositories</label>
+	</div>
+	<div class="input-field col s6">
+		<i class="material-icons prefix">list</i>	
+		<textarea id="dev_module_repos" name="dev_module_repos" placeholder="One line for each repo" value="" class="materialize-textarea"></textarea>
+		<label for="dev_module_repos">Module Repositories</label>
+	</div>
+</div>
+<div class="row">
+	<div class="input-field col s6">
 		<i class="material-icons prefix">person</i>
 		<input id="dev_admin_usr" name="dev_admin_usr" type="text" placeholder="Bot admin user" value="<tpl:dev_admin_usr>">
 		<label for="dev_admin_usr">Admin User</label>
@@ -44,7 +56,7 @@
 	<div class="input-field col s10 m2">
 		<i class="material-icons prefix">wifi_tethering</i>
 		<select id="config_wc_int">
-			<option value="" disabled selected>Select Interface</option>
+			<option value="" disabled selected>Interface</option>
 			<tpl:config_wc_interfaces>
 		</select>
 		<label>Interface</label>

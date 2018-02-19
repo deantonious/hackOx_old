@@ -45,10 +45,9 @@
 	$controller->set("modules", $modules_rows);
 	
 	$repo_modules_rows = "";
-	$modules_repo_url = "https://repo.hackox.net/modules/";
 	if(ENABLE_REPOS) {
 		try {
-			$repo_modules_json = @file_get_contents($modules_repo_url . "modules.json");
+			$repo_modules_json = @file_get_contents(MODULES_REPO . "/modules.json");
 
 			if ($repo_modules_json) {
 				$repo_modules = json_decode($repo_modules_json, true);
@@ -61,7 +60,7 @@
 					$module_description 	= $module["description"];
 					$module_last_update		= $module["last_update"];
 					$module_file			= $module["file"];
-					$module_url				= $modules_repo_url . $module_file;
+					$module_url				= MODULES_REPO . "/$module_file";
 					
 					$repo_modules_rows .= "
 							<tr>

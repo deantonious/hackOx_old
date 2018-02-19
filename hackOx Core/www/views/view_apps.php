@@ -44,10 +44,9 @@
 	$controller->set("output", "<pre>Run an application to get an output...</pre>");
 	
 	$repo_apps_rows = "";
-	$apps_repo_url = "https://repo.hackox.net/apps/";
 	if(ENABLE_REPOS) {
 		try {
-			$repo_apps_json = @file_get_contents($apps_repo_url . "applications.json");
+			$repo_apps_json = @file_get_contents(APPS_REPO . "/applications.json");
 
 			if ($repo_apps_json) {
 				$repo_apps = json_decode($repo_apps_json, true);
@@ -59,7 +58,7 @@
 					$last_update 	= $app["last_update"];
 					$description 	= $app["description"];
 					$file 			= $app["file"];
-					$app_url		= $apps_repo_url . $file;
+					$app_url		= APPS_REPO . "/$file";
 
 					$repo_apps_rows .= "
 							<tr>
