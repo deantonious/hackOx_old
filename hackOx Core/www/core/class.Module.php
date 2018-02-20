@@ -69,7 +69,7 @@
 				$directory = $data["directory"];
 				$name = $data["info"]["name"];
 				
-				$this->database->query("INSERT INTO " . T_PREFIX . "views (view_is_module, view_controller, view_template, view_title) VALUES (1, 'load.php', 'module.php', '$name')");
+				$this->database->query("INSERT INTO " . T_PREFIX . "views (view_is_module, view_controller, view_template, view_title) VALUES (1, 'load.php', 'module.tpl', '$name')");
 				$view_id = $this->database->insert_id;
 				
 				//Create tab if set
@@ -77,7 +77,13 @@
 				if($tab_display == 1) {
 					$tab_name = $data["tab"]["name"];
 					$tab_slug = $data["tab"]["slug"];
-					$tab_order = $this->database->query("SELECT MAX(tab_order)+1 AS next_order FROM botpi_tabs WHERE tab_parent=6 AND tab_id<>tab_parent")->fetch_object()->next_order;
+					$tab_order = $this->database->query("SELECT MAX(tab_order)+1 AS next_order FROM botpi_tabs WHERE tab_parent=6 AND tab_id<>tab_parent");
+					if($tab_order === false) {
+							$tab_order = 0;
+					} else {
+							$tab_order = $tab_order->fetch_object()->next_order;
+					}
+					
 					$this->database->query("INSERT INTO " . T_PREFIX . "tabs (tab_order, tab_parent, tab_divider, tab_name, tab_slug, tab_icon, tab_view_id) VALUES ($tab_order, 6, 0, '$tab_name', '$tab_slug', '', $view_id)");
 				
 				}
@@ -133,9 +139,11 @@
 		 *	@return void
 		 */ 
 		public function set($key, $value) {
-			$this->configuration[$key] = $value;
-			if(!($this->database->query("UPDATE " . T_PREFIX . "modules_config SET config_value='$value' WHERE module_id=" . $this->id . " AND config_key='$key'") > 0)) {
-				$this->database->query("INSERT INTO " . T_PREFIX . "modules_config (config_key, config_value) VALUES('$key', '$value')");
+			$this->configuration[$key] = $value; 
+			if($this->database->query("SELECT * FROM ".T_PREFIX."modules_config WHERE module_id=" . $this->id . " AND config_key='$key'")->num_rows == 0) {
+				$this->database->query("INSERT INTO " . T_PREFIX . "modules_config (module_id, config_key, config_value) VALUES(" . $this->id . ", '$key', '$value')");
+			} else {
+				$this->database->query("UPDATE " . T_PREFIX . "modules_config SET config_value='$value' WHERE module_id=" . $this->id . " AND config_key='$key'");
 			}
 		}
 		

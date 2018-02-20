@@ -134,7 +134,7 @@ $(function(){
 				hideLoader();
 				var response = JSON.parse(response_json);
 				Materialize.toast(response["message"], 3000);
-				$("#"+module_id).remove();
+				$("#module-"+module_id).remove();
 			}
 		});
 	}
