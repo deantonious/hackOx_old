@@ -6,14 +6,12 @@ $(function(){
 	
 	$(".btn-save-config").on("click", function() {
 		var config_ids = ["form_smtp_host", "form_smtp_port", "form_smtp_username", "form_smtp_password"];
-		module.saveConfig($(this).data("module-id"), config_ids); 
+		module.saveConfig(config_ids); 
 	});
 	
 	$(".btn-send-spoof-email").on("click", function() {
-		var module_id = $(this).data("module-id");
 		Materialize.toast("Sending email...", 3000);
 		var params = {
-			"module_id" : module_id,
 			"form_smtp_host" : $("#form_smtp_host").val(),
 			"form_smtp_encryption" : $("#form_smtp_encryption").val(),
 			"form_smtp_port" : $("#form_smtp_port").val(),
@@ -27,10 +25,8 @@ $(function(){
 			"form_destination_email" : $("#form_destination_email").val(),
 			"form_message" : $("#form_message").val()
 		};
+		module.requestAjaxWithLoader(params, "Sending email...");
 		
-		module.requestOutput(params, "/modules/mailspoof/lib/module.php");
-		
-
 	});
 
 });

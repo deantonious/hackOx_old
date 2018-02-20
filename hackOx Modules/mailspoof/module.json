@@ -12,8 +12,6 @@
   },
   "support_xml": false,
   "directory": "mailspoof",
-  "controller": "mailspoof.php",
-  "template": "mailspoof.tpl",
   "default_config": [
 	{
       "key": "smtp_host",
@@ -32,5 +30,8 @@
       "value": "example"
     }
   ],
-  "install_commands": [ ]
+  "install_commands": [ ],
+  "remove_commands": [ ]
 }
+
+   

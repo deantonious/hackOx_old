@@ -34,7 +34,7 @@
         </div>
     </div>
 	<div class="center">
-		<button class="waves-effect waves-light btn btn-save-config" type="submit" data-module-id="<tpl:module_id>"><i class="material-icons left">save</i>Save Configuration</button>
+		<button class="waves-effect waves-light btn btn-save-config" type="submit"><i class="material-icons left">save</i>Save Configuration</button>
 	</div>
 	<span class="title">From</span>
 	<div class="row">
@@ -83,6 +83,6 @@
 		</div>
 	</div>
 	<div class="center">
-		<button class="waves-effect waves-light btn btn-send-spoof-email" type="submit" data-module-id="<tpl:module_id>"><i class="material-icons left">send</i>Send Email</button>
+		<button class="waves-effect waves-light btn btn-send-spoof-email" type="submit"><i class="material-icons left">send</i>Send Email</button>
 	</div>
 </div>
