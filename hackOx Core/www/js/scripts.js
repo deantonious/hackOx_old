@@ -33,32 +33,6 @@ $(function(){
 		if(action == "config_update") {
 			configUpdate($("#dev_name").val(), $("#dev_remote_url").val(), $("#dev_id").val(), $("#dev_key").val(), $("#dev_admin_usr").val(), $("#dev_password").val());
 		}
-		//Scan for wifi networks
-		if(action == "wifi_scan") {
-			if($("#config_wc_int").val() != null) {
-				var id_display = $(this).data("display");
-				var id_interface = $(this).data("interface");
-				scanNetworks(id_interface, id_display);
-			} else { 
-				Materialize.toast("No interface selected", 3000);
-			}
-		}
-		//Connect to Wifi network
-		if(action == "wifi_connect") {
-			if($("#config_wc_int").val() != null && $("#config_wc_ssid").val() != null) {
-				connectWifi($("#"+$(this).data("interface")).val(), $("#"+$(this).data("ssid")).val(), $("#"+$(this).data("password")).val());
-			} else { 
-				Materialize.toast("No interface/ssid selected", 3000);
-			}
-		}
-		//Disconnect Wifi
-		if(action == "wifi_disconnect") {
-			if($("#config_wc_int").val() != null) {
-				disconnectWifi($("#"+$(this).data("interface")).val());
-			} else { 
-				Materialize.toast("No interface selected", 3000);
-			}
-		}
 		//Enable network interface
 		if(action == "interface_enable") {
 			configInterface($(this).data("interface"), "enable");

@@ -32,44 +32,13 @@
 				$interface_action = $_POST["interface_action"];
 				
 				if($interface_action == "enable") {
-					$out = shell_exec("sudo ifconfig $interface_name up");
+					$out = shell_exec("sudo ip link set $interface_name up");
 					$response->set(0, "Interface $interface_name successfully enabled!");
 				}
 				if($interface_action == "disable") {
-					$out = shell_exec("sudo ifconfig $interface_name down");
+					$out = shell_exec("sudo ip link set $interface_name down");
 					$response->set(0, "Interface $interface_name successfully disabled!");
 				}
-			}
-			
-			if($function == "wifi_scan") {
-				$interface_name = $_POST["interface_name"];
-				$networks = shell_exec("sudo iwlist $interface_name scan | grep ESSID: | grep -o '\".*\"' | sed 's/\"//g'");
-				$networks = explode("\n", $networks);
-				array_pop($networks);
-				$response->setWData(0, "Scan finished successfully!", json_encode($networks));
-			}
-			
-			if($function == "wifi_connect") {			
-				$interface_name = $_POST["interface_name"];
-				$wifi_ssid = $_POST["wifi_ssid"];
-				$wifi_password = $_POST["wifi_password"];
-				
-				shell_exec("sudo ip addr flush dev $interface_name; ip route flush dev $interface_name; ip link set $interface_name down");
-				shell_exec("sudo pkill -f wpa_supplicant");
-				shell_exec("sudo wpa_passphrase \"$wifi_ssid\" \"$wifi_password\" > /var/hackox/wifi.conf");
-				shell_exec("sudo wpa_supplicant -B -i $interface_name -c /var/hackox/wifi.conf -D wext");
-				shell_exec("sudo dhclient $interface_name");
-				
-				$response->set(0, "Successfully connected!");
-			}
-			
-			if($function == "wifi_disconnect") {			
-				$interface_name = $_POST["interface_name"];
-				
-				shell_exec("sudo pkill -f wpa_supplicant");
-				shell_exec("sudo ip addr flush dev $interface_name; ip route flush dev $interface_name; ip link set $interface_name down");
-				shell_exec("sudo dhclient -r $interface_name");
-				$response->set(0, "Successfully disconnected!");
 			}
 			
 			if($function == "config_update") {

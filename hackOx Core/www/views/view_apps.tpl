@@ -1,9 +1,9 @@
 <div class="row">
     <div class="col s12">
       <ul class="transparent tabs-fixed-width tabs">
-        <li class="tab col s3"><a href="#apps_installed" class="white-text active" >Manage Apps</a></li>
-        <li class="tab col s3"><a href="#apps_install" class="white-text">Install App</a></li>
-        <li class="tab col s3"><a href="#apps_logs" class="white-text">App Logs</a></li>
+        <li class="tab col s12 m3"><a href="#apps_installed" class="white-text active" >Manage Apps</a></li>
+        <li class="tab col s12 m3"><a href="#apps_install" class="white-text">Install App</a></li>
+        <li class="tab col s12 m3"><a href="#apps_logs" class="white-text">App Logs</a></li>
       </ul>
     </div>
 	<div class="tab-content" id="apps_installed">

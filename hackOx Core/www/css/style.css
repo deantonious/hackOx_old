@@ -68,6 +68,11 @@ nav ul a:hover {
 }
 
 /* CONTENT */
+.container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 .tab-content {
 	padding: 5em 2em 0 2em
 }
@@ -75,7 +80,7 @@ nav ul a:hover {
 .title {
 	display: block;
     line-height: 32px;
-    margin-bottom: 8px;
+    margin: 1.2em 0;
     font-size: 18px;
     font-weight: 300;
 }

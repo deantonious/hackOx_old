@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col s12">
       <ul class="transparent tabs-fixed-width tabs">
-        <li class="tab col s3"><a href="#modules_installed" class="white-text active" >Manage Modules</a></li>
-        <li class="tab col s3"><a href="#modules_install" class="white-text">Install Modules</a></li>
+        <li class="tab col s12 m3"><a href="#modules_installed" class="white-text active" >Manage Modules</a></li>
+        <li class="tab col s12 m3"><a href="#modules_install" class="white-text">Install Modules</a></li>
       </ul>
     </div>
 	<div class="tab-content" id="modules_installed">

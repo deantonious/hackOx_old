@@ -65,7 +65,6 @@
 	foreach($interfaces as $interface) {
 		$name = $interface["name"];
 		$enabled = $interface["enabled"];
-		$type = $interface["type"];
 		$mac = $interface["mac"];
 		$ip = $interface["ip"];
 		$broadcast = $interface["broadcast"];

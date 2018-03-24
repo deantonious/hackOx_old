@@ -22,10 +22,10 @@
 						<div class="row">
 							<div class="col s12">
 							  <ul class="transparent tabs-fixed-width tabs">
-								<li class="tab col s3"><a href="#module_panel" class="white-text active" >Module Panel</a></li>
-								<li class="tab col s3"><a href="#module_output" class="white-text">Output</a></li>
-								<li class="tab col s3"><a href="#module_logs" class="white-text">Logs</a></li>
-								<li class="tab col s3"><a href="#module_about" class="white-text">About</a></li>
+								<li class="tab col s12 m3"><a href="#module_panel" class="white-text active" >Module Panel</a></li>
+								<li class="tab col s12 m3"><a href="#module_output" class="white-text">Output</a></li>
+								<li class="tab col s12 m3"><a href="#module_logs" class="white-text">Logs</a></li>
+								<li class="tab col s12 m3"><a href="#module_about" class="white-text">About</a></li>
 							  </ul>
 							</div>
 							<div class="tab-content" id="module_panel">

@@ -12,7 +12,7 @@ main() {
   # Create hackOx env
   echo "Creating hackOx environment..."
   mkdir /var/hackox
-  tempfile=/var/hackox/latest.zip
+  tempfile=/var/hackox/hackox-latest-stable.zip
   workspace=/var/hackox
   
   # Create user
@@ -36,7 +36,7 @@ main() {
   
   # Install dependencies
   echo "Installing dependencies..."
-  apt-get -y install apache2 libapache2-mpm-itk mysql-server cURL wput cron wget sudo wpasupplicant
+  apt-get -y install apache2 apache2-mpm-itk php5-curl mysql-server cURL wput cron wget sudo wpasupplicant
   
   # Enable Apache2 Mods
   cd /etc/apache2/sites-available/

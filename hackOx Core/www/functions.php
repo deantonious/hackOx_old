@@ -14,107 +14,61 @@
 		return false;
 	}
 	
-	/**
-	 * Source: https://gist.github.com/cschaba/4740380
-	 *
-	 */
 	function getInterfaces() {
-		$active_interfaces = shell_exec("ifconfig");
-		$data = shell_exec("ifconfig -a");
+		$interface_names = shell_exec("ip link show | awk 'NR%2!=0' | cut -d ':' -f 2");
+		$interface_names = str_replace("lo\n", "", $interface_names);
+		$interface_names = str_replace(" ", "", $interface_names);
+		$interface_names = str_replace("\n", ",", $interface_names);
+		$interface_names = substr($interface_names, 0, -1);
+		$interface_names = explode(",", $interface_names);
+		
 		$interfaces = array();
-		foreach(preg_split("/\n\n/", $data) as $int) {
-
-			preg_match("/^([A-z]*\d)\s+Link\s+encap:([A-z]*)\s+HWaddr\s+([A-z0-9:]*).*" .
-					"inet addr:([0-9.]+).*Bcast:([0-9.]+).*Mask:([0-9.]+).*" .
-					"MTU:([0-9.]+).*Metric:([0-9.]+).*" .
-					"RX packets:([0-9.]+).*errors:([0-9.]+).*dropped:([0-9.]+).*overruns:([0-9.]+).*frame:([0-9.]+).*" .
-					"TX packets:([0-9.]+).*errors:([0-9.]+).*dropped:([0-9.]+).*overruns:([0-9.]+).*carrier:([0-9.]+).*" .
-					"RX bytes:([0-9.]+).*\((.*)\).*TX bytes:([0-9.]+).*\((.*)\)" .
-					"/ims", $int, $regex);
-
-			if(!empty($regex)) {
-
-				$interface = array();
-				$interface["name"] = $regex[1];
-				if (strpos($active_interfaces, $interface["name"]) === false) {
-					$interface["enabled"] = "false";
-				} else {
-					$interface["enabled"] = "true";
-				}
-				$interface["type"] = $regex[2];
-				$interface["mac"] = $regex[3];
-				$interface["ip"] = $regex[4];
-				$interface["broadcast"] = $regex[5];
-				$interface["netmask"] = $regex[6];
-				$interface["mtu"] = $regex[7];
-				$interface["metric"] = $regex[8];
-
-				$interface["rx"]["packets"] = (int) $regex[9];
-				$interface["rx"]["errors"] = (int) $regex[10];
-				$interface["rx"]["dropped"] = (int) $regex[11];
-				$interface["rx"]["overruns"] = (int) $regex[12];
-				$interface["rx"]["frame"] = (int) $regex[13];
-				$interface["rx"]["bytes"] = (int) $regex[19];
-				$interface["rx"]["hbytes"] = (int) $regex[20];
-
-				$interface["tx"]["packets"] = (int) $regex[14];
-				$interface["tx"]["errors"] = (int) $regex[15];
-				$interface["tx"]["dropped"] = (int) $regex[16];
-				$interface["tx"]["overruns"] = (int) $regex[17];
-				$interface["tx"]["carrier"] = (int) $regex[18];
-				$interface["tx"]["bytes"] = (int) $regex[21];
-				$interface["tx"]["hbytes"] = (int) $regex[22];
-
-				$interfaces[] = $interface;
+		foreach($interface_names as $interface_name) {
+			$interface = array();
+			$interface["name"] = $interface_name;
+			
+			if(shell_exec("ip link show $interface_name up") != "") {
+				$interface["enabled"] = "true";
 			} else {
-				preg_match("/^([A-z]*\d)\s+Link\s+encap:([A-z]*)\s+HWaddr\s+([A-z0-9:]*).*" .
-					"MTU:([0-9.]+).*Metric:([0-9.]+).*" .
-					"RX packets:([0-9.]+).*errors:([0-9.]+).*dropped:([0-9.]+).*overruns:([0-9.]+).*frame:([0-9.]+).*" .
-					"TX packets:([0-9.]+).*errors:([0-9.]+).*dropped:([0-9.]+).*overruns:([0-9.]+).*carrier:([0-9.]+).*" .
-					"RX bytes:([0-9.]+).*\((.*)\).*TX bytes:([0-9.]+).*\((.*)\)" .
-					"/ims", $int, $regex);
-				if(!empty($regex)) {
-					$interface = array();
-					$interface["name"] = $regex[1];
-					
-					if (strpos($active_interfaces, $interface["name"]) === false) {
-						$interface["enabled"] = "false";
-					} else {
-						$interface["enabled"] = "true";
-					}
-					$interface["type"] = $regex[2];
-					$interface["mac"] = $regex[3];
-					$interface["ip"] = "-";
-					$interface["broadcast"] = "-";
-					$interface["netmask"] = "-";
-
-					$interfaces[] = $interface;
-				} else {
-					preg_match("/^([A-z]*)\s+Link\s+encap:([A-z]*\s[A-z]*).*" .
-						"inet addr:([0-9.]+).*Mask:([0-9.]+).*" .
-						"MTU:([0-9.]+).*Metric:([0-9.]+).*" .
-						"RX packets:([0-9.]+).*errors:([0-9.]+).*dropped:([0-9.]+).*overruns:([0-9.]+).*frame:([0-9.]+).*" .
-						"TX packets:([0-9.]+).*errors:([0-9.]+).*dropped:([0-9.]+).*overruns:([0-9.]+).*carrier:([0-9.]+).*" .
-						"RX bytes:([0-9.]+).*\((.*)\).*TX bytes:([0-9.]+).*\((.*)\)" .
-						"/ims", $int, $regex);
-					if(!empty($regex)) {
-						$interface = array();
-						$interface["name"] = $regex[1];
-						if (strpos($active_interfaces, $interface["name"]) === false) {
-							$interface["enabled"] = "false";
-						} else {
-							$interface["enabled"] = "true";
-						}
-						$interface["type"] = $regex[2];
-						$interface["mac"] = "-";
-						$interface["ip"] = $regex[3];
-						$interface["broadcast"] = "-";
-						$interface["netmask"] = $regex[4];
-
-						$interfaces[] = $interface;
-					}
-				}
+				$interface["enabled"] = "false";
 			}
+			
+			$interface_data = shell_exec("ip addr show $interface_name");
+			
+			preg_match("/.*link\/ether\s([a-fA-F0-9:]{17}).*/ims", $interface_data, $regex);
+			if(count($regex) > 0) {
+				$interface["mac"] = $regex[1];
+			} else {
+				$interface["mac"] = "-";
+			}
+			
+			preg_match("/.*inet\s(([0-9]?[0-9]?[0-9]\.){3}([0-9]?[0-9]?[0-9])).*/ims", $interface_data, $regex);
+			if(count($regex) > 0) {
+				$interface["ip"] = $regex[1];
+			} else {
+				$interface["ip"] = "-";
+			}
+			
+			preg_match("/.*brd\s(([0-9]?[0-9]?[0-9]\.){3}([0-9]?[0-9]?[0-9])).*/ims", $interface_data, $regex);
+			if(count($regex) > 0) {
+				$interface["broadcast"] = $regex[1];
+			} else {
+				$interface["broadcast"] = "-";
+			}
+			
+			preg_match("/.*inet\s(([0-9]?[0-9]?[0-9]\.){3}([0-9]?[0-9]?[0-9])\/[1-4][0-9]?).*/ims", $interface_data, $regex);
+			if(count($regex) > 0) {
+				$cidr = substr($regex[1], strpos($regex[1], '/') + 1) * 1;
+				$netmask = str_split(str_pad(str_pad('', $cidr, '1'), 32, '0'), 8);
+				foreach ($netmask as &$element) $element = bindec($element);
+				$interface["netmask"] = join('.', $netmask);
+	
+			} else {
+				$interface["netmask"] = "-";
+			}
+			
+			$interfaces[] = $interface;
 		}
 		return $interfaces;
+		
 	}
