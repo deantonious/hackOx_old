@@ -1,9 +1,0 @@
-{
-    "name": "DeauthAttack",
-    "version": "1.3",
-    "author": "k4m4",
-    "description": "Deploy a custom deauth attack",
-	"directory": "deauthattack",
-	"run_command": "python3",
-    "script": "deauthattack.py"
-}
