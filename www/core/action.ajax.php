@@ -44,35 +44,19 @@
 				}
 			}
 			
-			if($function == "config_update") {
-				$query = "";
-				if(isset($data['dev_name'])) {
-					$dev_name = $database->real_escape_string($data['dev_name']);
-					shell_exec("echo '".$data['dev_name']."' > /etc/hostname; sudo /etc/init.d/hostname.sh");
-					$query .= "dev_name='$dev_name'";
-				}
-				if(isset($data['dev_remote_url'])) {
-					$dev_remote_url = $database->real_escape_string($data['dev_remote_url']);
-					$query .= ", dev_remote_url='$dev_remote_url'";
-				}
-				if(isset($data['dev_id'])) {
-					$dev_id = $database->real_escape_string($data['dev_id']);
-					$query .= ", dev_id='$dev_id'";
-				}
-				if(isset($data['dev_key'])) {
-					$dev_key = $database->real_escape_string($data['dev_key']);
-					$query .= ", dev_key='$dev_key'";
-				}
-				if(isset($data['dev_admin_usr'])) {
-					$dev_admin_usr = $database->real_escape_string($data['dev_admin_usr']);
-					$query .= ", dev_admin_usr='$dev_admin_usr'";
-				}
-				if(isset($data['dev_password']) && strlen($data['dev_password']) > 1) {
-					$dev_password = hash('sha512', PASSWORD_SALT . $database->real_escape_string($data['dev_password']));
-					$query .= ", dev_password='$dev_password'";
-				}
+			if($function == "config_update") {	
+                $dev_name = $data['dev_name'];
+                $dev_remote_url = $data['dev_remote_url'];
+                $dev_id = $data['dev_id'];
+                $dev_key = $data['dev_key'];
+                $dev_admin_usr = $data['dev_admin_usr'];
+                $dev_password = hash('sha512', PASSWORD_SALT . $data['dev_password']);
+
+                shell_exec("echo '$dev_name' > /etc/hostname; sudo /etc/init.d/hostname.sh");
+                
+                $exq = $database->connection()->prepare("UPDATE config SET dev_name=:dev_name, dev_remote_url=:dev_remote_url, dev_id=:dev_id, dev_key=:dev_key, dev_admin_usr=:dev_admin_usr, dev_password=:dev_password WHERE id=:id");
 				
-				if($database->query("UPDATE " . T_PREFIX . "config SET $query WHERE id='1'")) {
+				if($exq->execute([':dev_name' => $dev_name, ':dev_remote_url' => $dev_remote_url, ':dev_id' => $dev_id, ':dev_key' => $dev_key, ':dev_admin_usr' => $dev_admin_usr, ':dev_password' => $dev_password, ':id' => '1'])) {
 					$response->set(0, "Configuration updated!");
 				}
 			}

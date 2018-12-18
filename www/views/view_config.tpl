@@ -38,12 +38,12 @@
 <div class="row">
 	<div class="input-field col s12 m6">
 		<i class="material-icons prefix">person</i>
-		<input id="dev_admin_usr" name="dev_admin_usr" type="text" placeholder="Bot admin user" value="{{ dev_admin_usr }}">
+		<input id="dev_admin_usr" name="dev_admin_usr" type="text" placeholder="Admin user" value="{{ dev_admin_usr }}">
 		<label for="dev_admin_usr">Admin User</label>
 	</div>
 	<div class="input-field col s12 m6">
 		<i class="material-icons prefix">lock</i>
-		<input id="dev_password" name="dev_password" type="password" placeholder="Bot admin password" value="">
+		<input id="dev_password" name="dev_password" type="password" placeholder="Admin password" value="">
 		<label for="dev_password">New Password</label>
 	</div>
 </div>
